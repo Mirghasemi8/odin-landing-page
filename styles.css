@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: '';
-    /* border: 1px solid;   */
+    border: 1px solid;  
 }
 
 /* first section style and layout */
@@ -89,3 +89,29 @@
 
 /* second section style and layout */
 
+.second-container {
+    background-color: #ffffff;
+    height: 333px;
+    display: flex;
+}
+
+.second-section {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.second-section-items-container {
+    display: flex;
+}
+
+.second-section-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.second-section h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
