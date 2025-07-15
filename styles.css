@@ -1,19 +1,38 @@
-html {
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: '';
+    border: 1px solid;
 }
 
-* {
-    margin: inherit;
-    padding: inherit;
-    box-sizing: inherit;
-    font-family: inherit;
+/* first section style and layout */
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.top-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.top-bar a {
+    text-decoration: none;
+}
+
+
+.first-container {
+    background-color: #1F2937;
+    height: 400px;
 }
 
 .first-section {
-    background-color: #1F2937;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .hero-section h1 {
@@ -30,3 +49,33 @@ html {
 .hero-section button {
     background-color: #3882F6;
 }
+
+.hero-section button {
+    color: #ffffff;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-section-left {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: flex-start;
+    gap: 10px;
+    max-width: 500px;
+}
+
+.hero-section-right {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* second section style and layout */
