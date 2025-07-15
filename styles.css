@@ -30,6 +30,11 @@
     height: 400px;
 }
 
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 .first-section {
     max-width: 1200px;
     margin: auto;
@@ -159,3 +164,4 @@
     text-align: end;
     padding-right: 40px;
 }
+
