@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: '';
-    border: 1px solid;  
+    /* border: 1px solid;   */
 }
 
 /* first section style and layout */
@@ -91,7 +91,7 @@
 
 .second-container {
     background-color: #ffffff;
-    height: 333px;
+    height: 420px;
     display: flex;
 }
 
@@ -102,16 +102,33 @@
 
 .second-section-items-container {
     display: flex;
+    gap: 25px;
 }
 
 .second-section-item {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 
 .second-section h2 {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-weight: bold   ;
 }
+
+.second-section-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    border: 5px solid #3b82f6;
+}
+
+.second-section-item p {
+    text-align: center;
+    padding: 5px;
+    color: #4b5563;
+}
+
+/* third section style and layout */
